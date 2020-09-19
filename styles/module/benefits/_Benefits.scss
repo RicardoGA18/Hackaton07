@@ -1,0 +1,17 @@
+.Benefits{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    &-Item{
+        width: 100px;
+        margin: 20px;
+    }
+    &-Img{
+        width: 38px;
+        margin-left: 30px;
+    }
+    &-Text{
+        text-align: center;
+    }
+}

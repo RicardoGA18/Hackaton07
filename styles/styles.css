@@ -1,0 +1,284 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button, input[type="submit"] {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 29px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+h3 {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 17px;
+}
+
+p {
+  font-size: 10px;
+  line-height: 11px;
+}
+
+small {
+  font-size: 10px;
+  line-height: 11px;
+}
+
+.l-Background {
+  position: fixed;
+  width: 100vw;
+  height: 50vh;
+  top: 0;
+  left: 0;
+  background-color: #ffa600;
+  z-index: -1;
+}
+
+.l-Container {
+  max-width: 1030px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-Header {
+  width: 100%;
+  background-color: #eeeeee;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.l-Main {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+.l-Content {
+  width: 100%;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Sup {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Sup-Logo {
+  width: 82px;
+}
+
+.Sup-Phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 155px;
+}
+
+.Sup-Icon {
+  width: 20px;
+}
+
+.Sup-Number {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.Presentation {
+  max-width: 560px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.Presentation-title {
+  text-align: center;
+}
+
+.Presentation-subtitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Presentation-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.Presentation-input {
+  border: none;
+  padding: 10px;
+  width: 140px;
+  margin-top: 10px;
+}
+
+.Presentation-submit {
+  padding: 10px;
+  background-color: #ffa600;
+  width: 130px;
+  margin-top: 10px;
+}
+
+.Presentation-small {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Benefits {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Benefits-Item {
+  width: 100px;
+  margin: 20px;
+}
+
+.Benefits-Img {
+  width: 38px;
+  margin-left: 30px;
+}
+
+.Benefits-Text {
+  text-align: center;
+}
+
+.Description {
+  width: 100%;
+}
+
+.Description-Title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Description-Grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+}
+
+@media screen and (min-width: 450px) {
+  .Description-Grid {
+    -ms-grid-columns: 60% 1fr;
+        grid-template-columns: 60% 1fr;
+  }
+}
+
+.Description-CellContent {
+  background-color: #ffa600;
+  padding: 10px;
+}
+
+.Description-CellContent h3 {
+  margin-bottom: 5px;
+}
+
+.Description-CellContent h4 {
+  margin-bottom: 40px;
+}
+
+.Description-List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Description-Item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 130px;
+}
+
+.Description-Item img {
+  width: 38px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+.l-Background{
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 166, 0);
+    z-index: -1;
+}
+.l-Container{
+    max-width: 1030px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.l-Header{
+    width: 100%;
+    background-color: #eeeeee;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.l-Main{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+.l-Content{
+    width: 100%;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
