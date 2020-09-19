@@ -281,4 +281,53 @@ small {
 .Description-Item img {
   width: 38px;
 }
+
+.Options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 500px) {
+  .Options {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.Options-Item {
+  font-size: 10px;
+  line-height: 11px;
+  margin-bottom: 8px;
+}
+
+.Options-Details {
+  border: 2px solid rgba(156, 156, 156, 0.35);
+  padding: 15px;
+}
+
+.Options-Details h2 {
+  margin-bottom: 15px;
+}
+
+.Options-Item::before {
+  content: "\2022";
+  color: #ffa600;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.Options-Preview {
+  border: 2px solid rgba(156, 156, 156, 0.35);
+  padding: 15px;
+}
+
+.Options-Preview p {
+  margin-top: 15px;
+  width: 180px;
+}
 /*# sourceMappingURL=styles.css.map */
