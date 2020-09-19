@@ -52,6 +52,13 @@ a {
   text-decoration: none;
 }
 
+hr {
+  width: 100%;
+  color: rgba(128, 128, 128, 0.377);
+  border: 2px solid rgba(128, 128, 128, 0.377);
+  margin-bottom: 15px;
+}
+
 .l-Background {
   position: fixed;
   width: 100vw;
@@ -99,6 +106,15 @@ a {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.l-Footer {
+  width: 100%;
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .Sup {
@@ -563,6 +579,7 @@ a {
   width: 100%;
   padding: 20px;
   margin-top: 20px;
+  margin-bottom: 40px;
   background-color: #ffa600;
 }
 
