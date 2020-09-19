@@ -1,0 +1,42 @@
+.People{
+    width: 100%;
+    margin-top: 30px;
+    &-Title{
+        text-align: center;
+    }
+    &-Grid{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 570px;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
+        @include mq(550px){
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    &-Item{
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        h4{
+            text-align: center;
+        }
+        h4+p{
+            color: blue;
+            text-align: center;
+            margin-top: 5px;
+        }
+        p{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
