@@ -12,6 +12,12 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+    @include mq(1030px){
+        margin-top: 50px;
+        margin-bottom: 50px; 
+    }
 }
 .l-Header{
     width: 100%;
